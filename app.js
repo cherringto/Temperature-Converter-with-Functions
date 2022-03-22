@@ -31,7 +31,7 @@ function F(temperature2) {
 
 function choice() {
 
-    var tempChoice = prompt(`Do you want to convert to Farenheit (F) or Celsius (C)? (Please enter 'C' or 'F'.)`)
+    var tempChoice = prompt(`Do you want to convert to Farenheit (F) or Celsius (C)? (Please enter 'F' or 'C'.)`)
     if (tempChoice == "C") {
         C(temp())
     } else if (tempChoice == "F") {
